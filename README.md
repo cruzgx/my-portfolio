@@ -1,3 +1,3 @@
 # Demo
 
-Placeholder Text..
+Placeholder Text.
