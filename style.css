@@ -2,3 +2,16 @@
     font-family: Roboto Mono,Courier,Helvetica,Arial,sans-serif;
     line-height: 1.5;
 }
+
+body {
+    background-color: #fff6e6
+}
+
+.img-me {
+    padding: 20em;
+    background-image: url(../my-portfolio/Images/tempPicOfMe.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 100;
+    height: 300;
+}
