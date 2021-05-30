@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="style.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="inner-header"> 
+            <div class="logo_container">
+                <h1><span></span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="projects.html"><li>Projects</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>    
+
+    <h1>Contact Me</h1>
+
+    <div class="contact-form">
+        <form action="/send-email/" method="post">
+            <label class="name-label">Your name:</label>
+            <br>
+            <input name="name" type="text" required class="inputField"><br>
+            <label class="recepient-label">Recipients email:</label>
+            <br>
+            <input name="recepient-email" type="email" required class="inputField"><br>
+            <button type="submit">Submit and Send</button>
+
+        </form>
+    </div>
+</body>
+</html>
